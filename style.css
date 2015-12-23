@@ -1,0 +1,63 @@
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+#wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.column {
+   width: 25%;
+}
+
+input[type=search]{
+  border-radius: 10px;
+  width: 1200px;
+  margin: 0px 10px 20px 10px;
+}
+
+#employees {
+   float: left;
+   width: 80%;
+   border-collapse: collapse;
+}
+
+#employees td {
+   white-space: nowrap;
+}
+
+#profile {
+   float: right;
+   width: 20%;
+}
+
+.even td {
+   background-color: #efefef;
+}
+
+.selected td {
+   background-color: #add8e6;
+}
+
+#profile {
+   padding-left: 50px;
+}
+
+.input-group {
+   width: 100%;
+   margin: 25px 0px 25px 0px;
+}
+
+input[type=search] {
+   margin: 0px;
+}
