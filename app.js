@@ -1,5 +1,5 @@
 (function() {
-   var app = angular.module('DirectorySearch', ['ui.bootstrap']);
+   var app = angular.module('DirectorySearch', ['ui.bootstrap', 'angular-loading-bar']);
             
    app.filter('startFrom', function() {
       return function(input, start) {

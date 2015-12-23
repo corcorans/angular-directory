@@ -1,7 +1,11 @@
-<div id="employee_profile">
-   {{profile.firstName + " " + profile.middleInitial + " " + profile.surname}}<br/>
-   <img src="{{profile.portrait}}"><br/>
-   <label class="profile">Occupation:&nbsp;&nbsp;</label>{{profile.occupation}}<br/>
-   <label class="profile">Company:&nbsp;&nbsp;</label>{{profile.company}}<br/>
-   <label class="profile">Motto:&nbsp;&nbsp;</label>{{profile.motto}}
+<div id="profile_container" class="img-rounded">
+   <div id="employee_profile">
+      <div class="profile profile_name">
+         {{profile.firstName + " " + profile.middleInitial + " " + profile.surname}}<br/>
+      </div>
+      <img src="{{profile.portrait}}"><br/><br/>
+      <label class="profile">Occupation</label><br/>{{profile.occupation}}<br/><br/>
+      <label class="profile">Company</label><br/>{{profile.company}}<br/><br/>
+      <label class="profile">Motto</label><br/>{{profile.motto}}
+   </div>
 </div>
